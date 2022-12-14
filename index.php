@@ -12,9 +12,9 @@
 				<p id="kokot-text">...</p>
 			</div>
 		</section>
-		<section class="d-flex">
+		<form class="d-flex" action="/post_kokot.php" method="get">
 			<button class="btn btn-dark w-50" onclick="document.querySelector('#kokot-text').textContent = document.querySelector('#kokot-input').value;">NPC je?</button>
 			<input id="kokot-input" type="text" class="form-control" placeholder="..."/>
-		</section>
+		</form>
 	</body>
 </html>
